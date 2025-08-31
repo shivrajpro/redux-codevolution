@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
     "axios": "^0.26.1",
     "immer": "^9.0.21",
     "redux": "^4.2.1",
