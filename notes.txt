@@ -1,0 +1,7 @@
+Purpose of Exra Reducers
+ 1. In basic-redux project lets say we need to add a feature where an icecream
+ is given free on purchase of cake. In this case, we need to add CAKE_ORDERED action in 
+ iceCreamReducer which decrements the numOfIceCreams on CAKE_ORDERED action
+
+ 2. to implement the same feature in redux-toolkit, we need to add extraReducers key and 
+    cake/ordered action in iceCreamSlice
